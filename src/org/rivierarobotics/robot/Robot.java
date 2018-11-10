@@ -26,9 +26,9 @@ public class Robot extends IterativeRobot {
         */
 
         // Arcade Drive:
-        double x = joystick1.getX();
-        double y = joystick2.getY();
-        setArcade(x, y);
+        double x1 = joystick1.getX();
+        double y2 = joystick2.getY();
+        setArcade(x1, y2);
     }
 
     private void setArcade(double rotate, double power) {
